@@ -1,0 +1,31 @@
+@charset "utf-8";
+$font-size:16px;
+$body-width:180px;
+$body-height:200px;
+$input-width:100px;
+$margin-top:16px;
+$input-float:right;
+body{
+    font-size: $font-size;
+    width:$body-width;
+    height:$body-height;
+    margin:50px auto;
+    label{
+      height:50px;
+      line-height:50px;
+      .username{
+        float:$input-float;
+        width:$input-width;
+        margin-top:$margin-top;
+      }
+      .pwd{
+        float:$input-float;
+        width: $input-width;
+        margin-top:$margin-top;
+      }
+    }
+    .btn{
+      width:50px;
+      margin:$margin-top 75px;
+    }
+}
